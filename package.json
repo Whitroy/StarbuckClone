@@ -1,0 +1,19 @@
+{
+  "name": "starbuckclone",
+  "version": "1.0.0",
+  "description": "Clone Website of StarBuck",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^2.3.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.1.4"
+  }
+}

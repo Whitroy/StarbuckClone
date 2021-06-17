@@ -1,8 +1,83 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="CSS/main.css">
-    </head>
-    <body>
-        Hi
-    </body>
+
+<head>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <div class="flex flex-col justify-between">
+        <!--Header-->
+        <div class="fixed w-full z-10">
+            <div class="flex justify-between px-6 pt-2 items-center bg-primary-50">
+                <div class="flex flex-row justify-between items-center space-x-4">
+                    <img class="h-14 w-14" src="Image/StarBuckLogo.png" />
+                    <div class=" flex justify-center space-x-8 items-stretch pt-8 font-extrabold  font-serif">
+                        <a class="hover:text-primary-400 " href="#">MENU</a>
+                        <a class="hover:text-primary-400   border-b-8 border-primary-400 h-14" href="#">REWARDS</a>
+                        <a class="hover:text-primary-400 " href="#">GIFT CARDS</a>
+                    </div>
+                </div>
+                <div class=" flex justify-center p-2 items-center">
+                    <a href="#">
+                        <div class="flex justify-center items-center space-x-2 mr-8 hover:text-primary-400">
+                            <img class="h-5 w-5" src="Image/LocationIcon.png" />
+                            <h3 class="font-bold font-sans text-xs">Find a Store</h3>
+                        </div>
+                    </a>
+                    <a class="border p-1 pl-4 pr-4 rounded-full font-semibold font-sans mr-4 hover:bg-primary-200"
+                        href="#">Sign
+                        in</a>
+                    <a class="bg-primary-600 p-1 pl-4 pr-4 rounded-full font-semibold font-sans text-primary-100 hover:bg-primary-550 "
+                        href="#">Join now</a>
+                </div>
+            </div>
+            <div class="border-2 pl-40 py-2 bg-primary-500">
+                <h3 class="text-primary-100 text-md font-semibold font-sans ">
+                    STARBUCKS&#174 REWARDS
+                </h3>
+            </div>
+        </div>
+        <!--Content-->
+        <div class="overflow-x-hidden relative pt-32 flex flex-row justify-start items-center">
+            <img class="max-w-screen-2xl h-screen bg-primary-300 " src="Image/Hero-Image-XL.png" />
+            <div class="absolute flex flex-col items-start justify-center m-auto p-8 space-y-4 max-w-sm">
+                <h1 class="text-4xl font-semibold font-serif">FREE COFFEE IS A TAP AWAY</h1>
+                <h3 class="text-lg font-sans font-bold">Join now to start earning Rewards.</h3>
+                <a class="bg-primary-400 p-1 pl-4 pr-4 rounded-full font-semibold font-sans text-primary-100 hover:bg-primary-350 "
+                    href="#">Join now</a>
+                <h3 class="text-lg font-sans font-bold">Or <a class="underline hover:no-underline" href="#">join in the
+                        app</a> for the best experience</h3>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center p-28 space-y-4">
+            <h2 class=" text-3xl font-bold font-sans">Getting started is easy</h2>
+            <h3 class=" text-lg font-semibold font-sans">Earn Stars and get rewarded in a few easy steps.</h3>
+            <div class="flex justify-around items-start space-x-20 p-8 ">
+                <div class="flex flex-col justify-center items-center space-y-4 p-2">
+                    <h2 class="border-primary-400 border-2 rounded-full px-5 py-2 text-primary-400 text-2xl font-semibold">1</h2>
+                    <h3 class=" text-lg font-bold font-sans">Create an account</h3>
+                    <h3 class=" text-center text-base font-medium">
+                        To get started, <a class="text-primary-400 hover:no-underline underline" href="#">join now</a>. You can also <a class="text-primary-400 hover:no-underline underline" href="#">join in the app</a> to get access to the full range of Starbucks&#174 Rewards benefits.
+                    </h3>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4 p-2">
+                    <h2 class="border-primary-400 border-2 rounded-full px-4 py-2 text-primary-400 text-2xl font-semibold">2</h2>
+                    <h3 class=" text-lg font-bold font-sans">Order and pay how you'd like</h3>
+                    <h3 class=" text-center text-base font-medium">
+                        Use cash, credit/debit card or save some time and pay right through the app. You'll collect Stars all ways. <a class="text-primary-400 hover:no-underline underline" href="#">Learn how</a>
+                    </h3>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4 p-2">
+                    <h2 class="border-primary-400 border-2 rounded-full px-4 py-2 text-primary-400 text-2xl font-semibold">3</h2>
+                    <h3 class=" text-lg font-bold font-sans">Earn Stars, get Rewards</h3>
+                    <h3 class=" text-center text-base font-medium">
+                        As you earn Stars, you can redeem them for Rewards-like free food, drinks, and more. Start redeeming with as little as 25 Stars!
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

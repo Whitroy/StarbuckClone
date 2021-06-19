@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     mode : "jit",
-    purge : ["./index.html"],
+    purge : [".\\index.html"],
     colors :{
       primary:{
         50 : "#ffffff",
@@ -17,7 +17,29 @@ module.exports = {
         600 : "#000000"
       }
     },
-    extend: {},
+    extend: {
+      backgroundImage: theme =>({
+        "Hero_Image": "url('..\\Image\\Hero-Image-XL.png')",
+        "Mobile_Hero_Image" : "url('..\\Image\\hero-mobile.png')"
+      }),
+
+      backgroundPosition: {
+        '1/2': '50%',
+        '2/2.5': '40% 100%',
+       },
+
+       backgroundSize: {
+         'auto-100%': 'auto 100%',
+         'auto-75%' : 'auto 75%',
+         'auto-50%': 'auto 50%',
+       },
+
+       padding :{
+         '56.25%' :'56.25%',
+         '133.33%' : '133.33%'
+       }
+
+    },
   },
   variants: {
     extend: {},

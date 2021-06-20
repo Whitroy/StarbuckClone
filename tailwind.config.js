@@ -24,6 +24,7 @@ module.exports = {
         "light" : "#f3f1e7"
       }
     },
+
     extend: {
       backgroundImage: theme =>({
         "Hero_Image": "url('..\\Image\\Hero-Image-XL.png')",

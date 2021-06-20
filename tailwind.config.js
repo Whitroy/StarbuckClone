@@ -1,3 +1,5 @@
+const tailWindcolors =  require("tailwindcss/colors")
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -5,20 +7,21 @@ module.exports = {
     mode : "jit",
     purge : [".\\index.html"],
     colors :{
+
+      black : tailWindcolors.black,
+      white : tailWindcolors.white,
+      gray : tailWindcolors.gray,
+
       primary:{
-        50 : "#ffffff",
-        100 : "#f1f8f6",
-        200 : "#DCFADF",
-        300 : "#d4e9e2",
-        350 : "#019f59",
-        400 : "#008248",
-        500 : "#1e3932",
-        550 : "#686b62",
-        600 : "#000000"
+        "lightest" : "#f1f8f6",
+        "light" : "#d4e9e2",
+        "dark" : "#008248",
+        "darkest" : "#1e3932",
       },
+
       golden: {
-        1 : "#D1BF1B",
-        2 : "#f3f1e7"
+        "dark" : "#D1BF1B",
+        "light" : "#f3f1e7"
       }
     },
     extend: {
@@ -26,6 +29,10 @@ module.exports = {
         "Hero_Image": "url('..\\Image\\Hero-Image-XL.png')",
         "Mobile_Hero_Image" : "url('..\\Image\\hero-mobile.png')"
       }),
+
+      borderWidth:{
+        '1.1' : '1.1px'
+      },
 
       backgroundPosition: {
         '1/2': '50%',
